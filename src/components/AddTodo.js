@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function AddTodo({ onAddTodo }) {
   const [text, setText] = useState('');
-  const [style, setStyle] = useState('default'); // Default style
+  const [style, setStyle] = useState('personal'); // Default style
 
   const handleTextChange = (event) => {
     setText(event.target.value);
